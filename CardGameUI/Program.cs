@@ -31,7 +31,7 @@ public abstract class Deck
         drawPile = fullDeck.OrderBy(x => rnd.Next()).ToList();
     }
 
-    public abstract List<PlayingCard> DealCard();
+   // public abstract List<PlayingCard> DealCard();
 
     public virtual PlayingCard RequestCard()
     {
